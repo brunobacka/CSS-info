@@ -1,4 +1,4 @@
-# CSS-info
+# Combinador direto
 Repositório criado para listar algumas resolução de dúvidas de CSS
 ```
 # Combinador Direto
