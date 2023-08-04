@@ -1,0 +1,38 @@
+# combinadores irmãos que fazem mais ou menos a mesma coisa são ~ e + exemplo:
+
+----HTML----
+
+<button>Botão01</button>
+<input input="type" placeholder="texto"/>
+<button>Botão02</button>
+<button>Botão03</button>
+
+---CSS---
+
+input + button {
+  background: amarelo;
+} 
+
+========
+
+dessa forma o "Botão02" ganha o atributo, pois com o + ele seleciona o primeiro e exclusvamente o irmão fica a direita
+contando a partir do primeiro elemento declarado (nesse caso o input).
+
+
+----HTML----
+
+<button>Botão01</button>
+<input input="type" placeholder="texto"/>
+<button>Botão02</button>
+<button>Botão03</button>
+
+---CSS---
+
+input ˜ button {
+  background: amarelo;
+} 
+
+========
+
+dessa forma trocando o + pelo ~ ambos os botões "Botões01" e "Botões02" ganham o atributo de cor.
+contando a partir do primeiro elemento declarado (nesse caso o input).
